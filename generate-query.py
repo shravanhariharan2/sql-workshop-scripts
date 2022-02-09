@@ -39,7 +39,7 @@ for _ in range(1000):
   major = random.choice(majors)
   grad_year = random.choice(grad_years)
 
-  insert_into_students = "INSERT INTO students (first_name, last_name, pid, major, graduation_Year) " 
+  insert_into_students = "INSERT INTO students (first_name, last_name, pid, major, graduation_year) " 
   values = f"VALUES ('{first_name}', '{last_name}', '{pid}', '{major}', {grad_year});\n"
 
   query += (insert_into_students + values)
