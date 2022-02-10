@@ -3,7 +3,7 @@ import names
 
 # students
 majors = ["Computer Science", "Math-CS", "Computer Engineering", "Data Science", "CogSci"]
-grad_years = [2022, 2023, 2024, 2025, 2026]
+grad_years = [2019, 2020, 2021, 2022, 2023, 2024, 2025]
 
 # courses
 courses = ["CSE 12L", "CSE 13", "MATH 184", "CSE 100L", "CSE 143", "ECE 15L"]
