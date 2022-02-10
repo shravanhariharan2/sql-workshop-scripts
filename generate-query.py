@@ -16,12 +16,17 @@ titles = [
   "Binary - Lab"
 ]
 professors = [
-  "Larry Lillespie",
+  "Blueface",
+  "MrBeast",
   "Cardi B",
-  "Johnathan Ma",
-  "some Google recruiter",
-  "Linus Sebastian",
-  "Ada Lovelace"
+  "Barry the Bee",
+  "Karl Anthony Towns",
+  "Leland Stanford",
+  "Stanley Lee",
+  "Joma Tech",
+  "Linus Tech Tips",
+  "Ada Lovelace",
+  "Arthur Fleck",
 ]
 quarters_offered = ["Fall", "Winter", "Spring"]
 years_offered = [2018, 2019, 2020, 2021, 2022, 2023]
@@ -47,10 +52,11 @@ for _ in range(1000):
 query += "\n\n\n"
 
 # build courses insertions
-for i in range(len(courses)):
+for _ in range(40):
+  i = random.randint(0, len(courses) - 1)
   course = courses[i]
   title = titles[i]
-  prof = professors[i]
+  prof = random.choice(professors)
   q_offered = random.choice(quarters_offered)
   y_offered = random.choice(years_offered)
 
